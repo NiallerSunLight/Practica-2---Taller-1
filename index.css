@@ -27,6 +27,7 @@ nav ul li{
     color: white;
     margin: 10px;
     line-height: 30px;
+    list-style: none;
 }
 
 nav{
@@ -40,11 +41,12 @@ nav{
     float: left;
     width: 70%;
     min-height: 300px;
-    background: #212F3C; 
+    background: #212F3C;
+    color: white;
 }
 
-li{
-    list-style: none;
+#presentacion h2{
+    line-height: 50px;
 }
 
 aside{
@@ -54,12 +56,17 @@ aside{
     min-height: 300px;
 }
 
+aside img{
+    float: right;
+    width: 230px;
+}
+
 .orden{
     clear: both;
 }
 
 footer{
-    line-height: 50px;
+    line-height: 20px;
     background: #117864;
     text-align: center;
     color: white;
