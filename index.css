@@ -49,6 +49,32 @@ nav{
     line-height: 50px;
 }
 
+#tabla{
+    width: 100%;
+    min-height: auto;
+    background: #212F3C;
+    color: white;
+}
+
+#tabla h3{
+    line-height: 50px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border: 1px solid black;
+}
+
+th{
+    text-align: center;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
 aside{
     float: left;
     width: 29%;
