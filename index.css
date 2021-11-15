@@ -15,11 +15,11 @@ body{
 
 header{
     height: 100px;
-    /*width: 100%;*/
-    background: #117864;
+    width: 99%;
+    background: #148F77;
     text-align: center;
     color: white;
-    margin: 0px;
+    margin: auto;
 }
 
 nav ul li{
@@ -31,7 +31,7 @@ nav ul li{
 }
 
 nav{
-    background: #117864;
+    background: #148F77;
     height: 50px;
     border: 1px solid black; 
     padding-left: 30px;
@@ -49,8 +49,21 @@ nav{
     line-height: 50px;
 }
 
+aside{
+    float: left;
+    width: 29%;
+    background: #212F3C;
+    min-height: 300px;
+}
+
+aside img{
+    float: right;
+    width: 230px;
+}
+
 #tabla{
-    width: 100%;
+    margin: auto;
+    width: 99%;
     min-height: auto;
     background: #212F3C;
     color: white;
@@ -75,16 +88,154 @@ td{
     border: 1px solid black;
 }
 
-aside{
-    float: left;
-    width: 29%;
+#proy{
+    margin: auto;
+    width: 99%;
+    min-height: auto;
     background: #212F3C;
-    min-height: 300px;
+    color: white;
 }
 
-aside img{
-    float: right;
-    width: 230px;
+#proy h2{
+    line-height: 50px;
+    text-align: center;
+}
+
+#proy h3{
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+#proy ul{
+    margin-left: 30px;
+}
+
+.grid-container{
+    display: grid;
+    background-color: #909497;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.grid-container div{
+    text-align: center;
+    color: white;
+}
+
+.txtHobb1{
+    grid-column: 1 / span 2;
+    margin: auto;
+}
+
+.txtHobb1 h3{
+    text-align: center;
+    line-height: 30px;
+}
+
+.txtHobb1 p{
+    padding: 5px;
+    text-align: left;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.sldHobb{
+    width: 235px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sldHobb ul.slider{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    height: 260px;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+.sldHobb li{
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+.sldHobb img{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.txtHobb2{
+    grid-column: 2 / span 2;
+    margin: auto;
+}
+
+.txtHobb2 h3{
+    text-align: center;
+    line-height: 30px;
+}
+
+.txtHobb2 p{
+    padding: 5px;
+    text-align: right;
+}
+
+.txtHobb3{
+    grid-column: 1 / span 2;
+    margin: auto;
+}
+
+.txtHobb3 h3{
+    text-align: center;
+    line-height: 30px;
+}
+
+.txtHobb3 p{
+    padding: 5px;
+    text-align: left;
+}
+
+.txtHobb4{
+    grid-column: 2 / span 2;
+}
+
+span{
+    line-height: normal;
+    font-size: 11px;
+    display: table-caption;
+    padding: 0;
+    background:#646464;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 118px;
+    height: 0;
+}
+
+span span{
+    background:rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 0;
+    text-shadow: 0 0 15px white;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
 }
 
 .orden{
@@ -93,7 +244,7 @@ aside img{
 
 footer{
     line-height: 20px;
-    background: #117864;
+    background: #148F77;
     text-align: center;
     color: white;
 }
